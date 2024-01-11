@@ -1,0 +1,1 @@
+Esse é um card feito para a resolução da primeira tarefa de front-end, utilizando apenas html e css. 
