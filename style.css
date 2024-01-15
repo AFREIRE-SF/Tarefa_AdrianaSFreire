@@ -41,6 +41,14 @@ p{
     line-height: 1.5em;
 }
 
+ol, li, label{
+    text-align: left;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
 article{
     border: 2px solid rgb(248, 99, 99);;
     max-width: 800px;
@@ -112,4 +120,60 @@ footer,a {
     color: #00e9fe;
     line-height: 2.5em;
 
+}
+
+.corbtn{
+    color: #00e9fe;
+}
+
+input {
+    align-items: center;
+    border-radius: 4px;   
+    background: #f7f8f9;
+    border: 2px solid #00e9fe;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+}
+
+textarea {
+    border: 2px solid #00e9fe;
+    background: #f7f8f9;
+    margin-top:10px;
+    width: 170px;
+    height: 100px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+input[type=text]:hover,
+textarea:hover {
+    background: #f7f8f9;
+    border: 2px solid #f7da05;
+}
+
+input[type=submit] {
+    width: 170px;
+    height: 60px;
+    border-radius:10px;
+    border: 2px solid #1a4246;
+    background-color:#000000;
+    margin-top: 30px;
+}
+
+::placeholder{
+    color: #959595;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.Eu{
+    width: 50%;
+    height: 50%;
+}
+
+.flex-start{
+    align-items: flex-start;
 }

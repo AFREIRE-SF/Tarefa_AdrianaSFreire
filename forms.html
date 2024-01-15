@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulário</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="48x48">
+
+</head>
+
+<body class="flex-column">
+    <article class="flex-column">
+        <header class="flex-column">
+            <img class="Eu" src="img/I.png">
+            <h1>Bem vindo</h1>
+
+            <p class="text-width">Estamos entusiasmados em embarcar em uma jornada criativa com você!<br>
+                Obrigado por nos escolher para dar vida à sua visão.
+            </p>
+
+            <p class="text-width">
+                Para iniciar este processo, adoraríamos saber mais sobre seu projeto e suas preferências exclusivas.
+
+                <br>Este formulário foi projetado para capturar detalhes importantes que nos guiarão na elaboração de
+                uma solução personalizada só para você. Seus insights são a base da nossa colaboração!
+
+                <br>Se você tiver alguma dúvida ou precisar de ajuda ao longo do caminho, sinta-se à vontade para entrar
+                em contato em afreire@gmail.com ou no whatsapp 8699458-5553.
+                <br><i>Vamos criar algo extraordinário!</i>
+            </p>
+        </header>
+
+        <main class="flex-column">
+            <h1>Regras e diretrizes</h1>
+            <ol>
+                <li>Os usuários devem ter mais de <b>18 anos</b> para enviar o formulário.</li>
+                <li>Os usuários devem fornecer um endereço de <b>e-mail válido </b>no formato especificado.</li>
+                <li>Determinados campos marcados com  devem ser preenchidos <b>obrigatoriamente</b> .</li>
+                <li>Os usuários só podem enviar o formulário uma vez dentro de um período de <b>24 horas</b>.</li>
+            </ol>
+            <br>
+
+
+            <div class="flex-column">
+                <form class="flex-column">
+                    <div class="flex-column flex-start">
+                        <label for="nome" >Nome:</label>
+                        <input required placeholder="Digite o seu nome" type="text" id="nome" />
+                    </div>
+
+                    <div class="flex-column flex-start">
+                        <label for="idade">Idade:</label>
+                        <input required for="idade" type="number" id="idade" />
+                    </div>
+
+                    <div class="flex-column flex-start">
+                        <label for="Empresa">Empresa:</label>
+                        <input required placeholder="Digite o nome da sua empresa" type="text" id="EmpresaUser" />
+                    </div>
+
+                    <div  class="flex-column flex-start">
+                        <label for="Cargo">Cargo:</label>
+                        <input required placeholder="Qual o seu cargo?" type="text" id="CargoUser" />
+                    </div>
+
+
+                    <div class="flex-column flex-start">
+                        <label for="email">E-mail:</label>
+                        <input required placeholder="Digite um e-mail válido" type="email" id="email" />
+                    </div>
+
+                    <div class="flex-column flex-start">
+                        <label for="msg">Mensagem:</label>
+                        <textarea required placeholder="Envie um resumo com as principais caracteristicas do seu projeto:"
+                            id="msg"></textarea>
+                    </div>
+
+                    <div class="flex-column flex-start">
+                        <label for="url">Deixe links relacionados ao projeto</label>
+                        <input placeholder="Deixe links importantes aqui" type="url" id="link" />
+                    </div>
+
+                    <div class="flex-column flex-start">
+                        <button class="botao corbtn" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </main>
+        <footer class="voltar">
+            <a href="index.html"><i>Voltar</i></a></button>
+        </footer>
+
+
+    </article>
+</body>
+
+</html>
